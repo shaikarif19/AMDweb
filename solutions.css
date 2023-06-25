@@ -1,0 +1,199 @@
+
+*{
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: 300;
+    font-family: 'Pacifico', cursive;
+    
+}
+body{
+    background-color: black;
+    width: 99%;
+    margin: 0;
+}
+
+.up{
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+    display: table;
+    border-bottom: 2px solid yellow;
+   
+    
+}
+.up div{
+    width: 30%;
+    height: auto;
+    padding: 10px 0px;
+    float: left;
+    
+}
+.up nav{
+    width: 95%;
+    height: auto;
+    padding: 40px;
+    text-align: right;  
+}
+button{
+    background-color: black;
+    color: yellow;
+    border: none;
+    margin: 5px;
+}
+.up nav button:hover{
+    color: aqua;
+    color: red;
+    border-bottom: solid white;
+}
+img{
+    width: 40%;
+    height: 20%;
+}
+.sol{
+    width: 100%;
+    height: 20vh;
+    color: aqua;
+}
+.sol h1{
+    font-size: 25px;
+    text-align: center;
+}
+.ui{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://media.licdn.com/dms/image/C4E12AQG-jdUBcEdBIg/article-cover_image-shrink_720_1280/0/1520202876971?e=2147483647&v=beta&t=9ExUfGBSDL2zVBOmpT8teV6Z4zq1ZHEJeNT7aeiCbJU);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.ui div{
+    width: 30%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.68);
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 60%;
+   
+    
+}
+.imk{
+    width: 30%;
+    height: 50%;
+    text-align: left;
+}
+.contant{
+   
+    width: 100%;
+    height: 20vh;
+    color: coral;
+    text-align: center;
+}
+mark{
+    background-color: aliceblue;
+    color: rgb(88, 11, 147);
+    font-size: larger;
+    
+}
+.siraj{
+    width: 100%;
+    height: 150vh;
+
+   
+    
+}
+
+p{
+    width: 100%;
+    height: 40vh;
+    padding: 50px;
+    color: goldenrod;
+    text-align: justify;
+}
+.itc{
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+    text-align: center;
+}
+.itc h1{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+.itc h1:hover{
+    border-bottom: solid black;
+}
+.itcs{
+    width: 15%;
+    height: 20vh;
+    transition-duration: 4s;
+
+    
+}
+.itcs:hover{
+    transform: translate(-30%);
+}
+
+.classmate{
+    width: 100%;
+    height: 160vh;
+    background-color: black;
+    text-align: center;
+}
+.classmate figure{
+    width: 450px;
+    display: inline-block;
+    
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    color: yellowgreen;
+}
+.classmate h1{
+    font-size: 25px;
+    color:rgb(222, 16, 47);
+    text-align: center;
+}
+.classmate figure:hover{
+    border-radius: 40px;
+    background-color:rgb(18, 158, 213);
+    color: red;
+}
+.btnnp{
+    width: 100%;
+    height: 10vh;
+}
+.btnnp button{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    color: red;
+    border-radius: 4px 2px 2px 4px ;
+}
+.btmm{
+    width: 100%;
+    height: 100px;
+    color: azure;
+    border-top: 2px solid yellow;
+    text-align: center;
+}
+@media screen and(max-width:800px) {
+    body{
+        width: 100%;
+        background-color: white;
+    }
+    
+}
+@media screen and(max-width:300px) {
+    body{
+        width:100% ;
+        height: 100vh;
+    }
+    
+}

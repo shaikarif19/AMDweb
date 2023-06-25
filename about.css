@@ -1,0 +1,188 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    
+}
+body{
+    background-color: black;
+    width: 99%;
+    margin: 0px;
+    
+}
+.ab{
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+    display: table;
+    border-bottom: 2px solid yellow;
+    position: fixed;
+    z-index: 1;
+   
+    
+}
+.ab div{
+    width: 30%;
+    height: auto;
+    padding: 10px 0px;
+    float: left;
+    
+}
+.ab nav{
+    width: 95%;
+    height: auto;
+    padding: 40px;
+    text-align: right;  
+}
+.ab img{
+    width: 40%;
+    height: 20%;
+}
+button{
+    width: 10%;
+    height: 30px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    margin: 5px;
+    transition-duration: 2s;
+    border: 2px solid rgb(5, 1, 1);
+}
+.ab button:hover{
+    width: 15%;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    border-radius: 40px;
+}
+.z{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding-left: 70px;
+    
+}
+.love{
+    width: 100%;
+    height:450px;
+    background-image:url(https://www.vedantcomputers.com/image/cache/catalog/vc/blog-images/amd-ryzen-master-utility/overclocking-control-600x315h.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:140% 140%;
+  
+}
+.love div{
+    width: 50%;
+    height: 100px;
+    left: 10%;
+    top: 40%;
+    position: absolute;
+    box-shadow: 2px 2px 2px black;
+    color: rgb(170, 47, 207);
+    text-align: center;
+}
+span{
+    font-size: 70px;
+    color: aqua;
+}
+.breakup{
+    width: 100%;
+    height: 50vh;
+}
+.breakup div{
+    width: 48%;
+    float: left;
+    color: gainsboro;
+    padding-right: 10%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: larger;
+}
+.ios{
+    width: 48%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+img{
+    width: 100%;
+    height: 50%;
+    transition-duration: 4s;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
+.imgs{
+    width: 100%;
+    height: 450px;
+}
+.trs{
+    color: white;
+    text-align: center;
+}
+.trs h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+.erp{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://www.amd.com/system/files/2022-02/1292891-red-team-community-1920x600.jpg);
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.iphone{
+    width: 30%;
+    height: 30vh;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.744);
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    color: rgb(248, 37, 231);
+}
+.im{
+    width: 100px;
+    color: white;
+    border: 2px double pink;
+}
+.foot_end{
+    width: 100%;
+    height: 100px;
+    color: azure;
+    border-top: 2px solid yellow;
+    text-align: center;
+}
+.end{
+    font-size: 30px;
+}
+img:hover{
+    border: 4px double white;
+    transform: rotateX(120deg);
+}
+@media screen and(max-width:300px) {
+    image{
+        width:10%;
+        height: 50%;
+    }
+    
+}
+@media screen and(max-width:800px) {
+    *{
+        width: 100%;
+    }
+    
+}
+
+
+    
+  
+

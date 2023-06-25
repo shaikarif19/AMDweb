@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: 300;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+body{
+    background-color: black;
+    width: 99%;
+    margin: 0;
+}
+
+.up{
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+    display: table;
+    border-bottom: 2px solid yellow;
+   
+    
+}
+.uper div{
+    width: 30%;
+    height: auto;
+    padding: 10px 0px;
+    float: left;
+    
+}
+.uper nav{
+    width: 95%;
+    height: auto;
+    padding: 40px;
+    text-align: right;  
+}
+button{
+    background-color: black;
+    color: yellow;
+    margin: 5px;
+}
+.uper nav button:hover{
+    background-color: yellow;
+    color: black;
+    border-bottom: solid rgb(33, 42, 201);
+    
+}
+img{
+    width: 40%;
+    height: 20%;
+}
+.endb{
+    width:100% ;
+    height:125vh;
+    color: red;
+    text-align: center;
+}
+.endb img{
+    width: 100%;
+    height: 80vh;
+}
+.endb h1{
+    font-size: 30px;
+    text-align: center;
+    transition-duration: 2s;
+}
+.endb h1:hover{
+    transform: rotateY(120deg);
+}
+
+.endb p{
+    text-align: justify;
+}
+.final{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://lh3.googleusercontent.com/VQDFKwzFsySoZA7igI3lvzF0Zlbazi3QB9NEt6vnVclldPRyh6HLVKAS8q0iyoVLszeKPbknQezcYYvA5aU4B0nEDoyQ1s_UaGdDz3Cl);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.final div{
+    width: 50%;
+    height: 53vh;
+    color: white;
+   
+    text-align: justify;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.final h1{
+    font-size: 25px;
+    color: yellow;
+    
+}
+
+
